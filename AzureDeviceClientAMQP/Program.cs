@@ -122,7 +122,6 @@ class Program
       }
    }
 
-
    private static async Task<MethodResponse> MethodCallbackDefault(MethodRequest methodRequest, object userContext)
    {
       Console.WriteLine($"Default handler method {methodRequest.Name} was called.");
